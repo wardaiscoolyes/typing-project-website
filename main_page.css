@@ -1,0 +1,199 @@
+body{
+  border-top: 5px solid  rgb(0, 11, 96);
+  margin: 0px;
+  min-height: 100vh;
+  min-width: 100vh;
+  height: 100%;
+  margin: 0;     
+  background-color: rgb(165, 187, 255);
+  }
+body::-webkit-scrollbar{
+  display: none;
+}
+.text {
+    color: #3226de;
+}
+
+.typing_logo {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50px;
+}
+.typing_logo:hover{
+  background-color: #7d7d7d;
+}
+
+#mainheading{
+    font-size: 70px;
+    text-align: center;
+    font-family: "Quicksand";
+    font-weight: lighter;
+}
+#secondheading{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: underline; 
+}
+#para1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #italicized{
+        font-style: italic;
+        font-weight: bold;
+    }
+.container {
+        text-align: center;
+      }
+      button {
+        padding: 10px 20px;
+    }
+    .button {
+        font-family: Verdana;
+        font-size: 16px;                
+        font-weight: lighter;               
+        color: rgb(255, 255, 255);                    
+        background-color: rgb(51, 82, 238);      
+        border: none;                   
+        border-radius: 5px;              
+        cursor: pointer;                 
+      }
+      
+      .button:hover {
+        background-color: #0824a0;       
+      }
+      .wardainfo {
+        font-family: Quicksand;
+        font-size: larger;
+        float: left;
+        margin-top: 150px;
+        text-align: left;
+        left: 5px;
+        position: fixed;
+        bottom: 0px;
+      }
+      .wardainfo a {
+        text-decoration: none;
+      }
+
+      .aimaninfo {
+        font-family: Quicksand;
+        font-size: larger;
+        float: right;
+        margin-top: 100px;
+        text-align: right;
+        position: fixed;
+        bottom: 0px;
+        right: 5px;
+      }
+      .aimaninfo a {
+        text-decoration: none;
+      }
+      #aimantext {
+        padding: 0px;
+        margin-bottom: 0px;
+      }
+.images {
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 0px;
+    background-color: #feefef;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.keyboardillustration {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%; 
+  overflow: hidden;
+  border: 1px solid #0824a0;
+  padding: 50px;
+  background-color: #5171ff;
+  margin-left: 5px;
+  transform: translateX(500px);
+  transform: translateY(-180px);
+}
+
+.keyboardillustration img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+}
+
+.typingillustration {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%; 
+  overflow: hidden;
+  border: 1px solid #0824a0;
+  padding: 50px;
+  background-color: #5171ff;
+  margin-left: 0px;
+  transform: translateX(320%) translateY(-150%);
+}
+
+.typingillustration img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+}
+
+.keyboardsmallillustration {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  overflow: hidden;
+  border: 1px solid #0824a0;
+  padding: 50px;
+  background-color: #5171ff;
+  margin-left: 0px;
+  transform: translateX(740%) translateY(-600%);
+}
+.keyboardsmallillustration img {
+    display: block; 
+    margin-left: -10px; 
+    margin-top: -15px; 
+    width: 150%; 
+    height: 150%; 
+    object-fit: cover;
+    
+  }
+
+  .mantypingillustration {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    overflow: hidden;
+    border: 1px solid #0824a0;
+    padding: 50px;
+    background-color: #5171ff;
+    margin-left: 0px;
+    transform: translateX(10%) translateY(-720%);
+  }
+  .mantypingillustration img {
+      display: block; 
+      margin-left: -10px; 
+      margin-top: -15px; 
+      width: 150%; 
+      height: 150%; 
+      object-fit: cover;
+      
+    }
+
+.tinycircle {
+  width: 50px;
+  height: 50px;
+  border: 100px solid #0824a0;
+  background-color: #5171ff;
+  border-radius: 50%;
+  transform: translateX(130px) translateY(-300px);
+}
+
+.contactw{
+  margin: 0%;
+  padding: 0%;
+}
+
+  
+ 
